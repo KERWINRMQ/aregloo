@@ -1,0 +1,89 @@
+/* esta es mi archivo de estilos */
+		body{
+  			margin: 0;
+			background-image: url("fondo.png");
+			color: navajowhite;
+			background-size: cover;
+			
+			}
+		.center{
+			text-align: center;
+			font-family: Engravers MT;
+			padding: 60px;
+  		
+		}
+		.parrafo{
+  		 background-color:  #6C7077;
+		 color: #F6F7F8;
+ 		 /*border: 5px antiquewhite inset;*/
+ 		 margin: 45px;
+  		 padding: 30px;
+  		 font-size: 20px;
+   		text-align: justify;
+   		}
+   		ul{
+  		list-style-type: none;
+ 		 margin: 0;
+  		padding: 0;
+ 		 width: 25%;
+  		background-color: #6C7077;
+ 		position: fixed;
+  		height: 100%;
+  		overflow: auto;
+  		border: 1px solid #0B0B0B;
+		}
+		li {
+ 		 text-align: center;
+ 		 border-bottom: 1px solid #0B0B0B;
+		}
+
+		li:last-child {
+  		border-bottom: none;
+		}
+		li a {
+  		display: block;
+ 		 color: #000;
+  		padding: 8px 16px;
+		 text-decoration: none;
+		}
+
+		li a.active {
+  		background-color: #3D4147;
+  		color: white;
+		}
+
+		li a:hover:not(.active) {
+ 		 background-color: #555;
+  		color: white;
+		}
+		img {
+ 		 display: block;
+ 	 	margin-left: auto;
+ 	 	margin-right: auto;
+		}
+	.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color: DarkSalmon;
+  color: white;
+}
